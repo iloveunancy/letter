@@ -84,6 +84,10 @@ body {
     font-size: 20px;
 }
 
+nav {
+    margin-top: 25px;
+}
+
 nav a {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
