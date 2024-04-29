@@ -100,17 +100,13 @@ nav a:before {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border-radius: 100%;
-    border: solid 1px #ff69b4;
+    transition: all 0.2s ease-in-out;  
     display: block;
-    font-size: 20px;
-    height: 2.5em;
+    font-size: 30px;
     line-height: 2.5em;
     position: relative;
     text-align: center;
-    top: 0;
-    width: 2.5em;
+    top: 0;   
 }
 
 nav a:hover {
@@ -118,7 +114,6 @@ nav a:hover {
 }
 
 nav a:hover:before {
-    background-color: rgba(255, 255, 255, 0.175);
     color: #ff69b4;
 }
 
@@ -128,7 +123,6 @@ nav a:active {
 }
 
 nav a:active:before {
-    background-color: rgba(255, 255, 255, 0.35);
     color: #ff69b4;
 }
 
@@ -152,7 +146,7 @@ ul {
 }
 
 .name {
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px;
 }
 
