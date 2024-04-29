@@ -27,8 +27,14 @@
             <div class="col footer text-center">
               <span class="white">É VOCÊ QUE EU QUERO</br></span>
               <span class="pink">E É EM VOCÊ</br></span>
-              <span class="white">QUE EU VOU INSISTIR!</span>
+              <span class="white">QUE EU VOU INSISTIR!<br></span>
+              <div class="audio">
+                <a class="icon fa-lg fa-solid fa-music fa-fade btn-audio pink" onclick="document.getElementById('sound').play();" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"><span class="label"></span></a>
+              </div>
            </div>
+           <audio id="sound" controls autoplay>
+              <source src="assets/audio/audio.mp3" type="audio/mpeg">
+           </audio>
           </div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
